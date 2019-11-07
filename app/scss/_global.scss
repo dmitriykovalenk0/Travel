@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: $white;
+  color: $black;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $black;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1675px;
+  margin: 0 auto;
+}
+
+.btn-info {
+  padding: 20px 84px;
+
+  font-size: 18px;
+  letter-spacing: 2.52px;
+
+  border: 2px solid $white;
+
+  &--black {
+    border: 2px solid $black;
+    color: $black;
+  }
+}
