@@ -1,0 +1,47 @@
+.slick-slide img {
+  display: inline-block;
+}
+
+.slider-arrows {
+  position: absolute;
+  cursor: pointer;
+  bottom: -100px;
+  z-index: 4;
+
+  &__right {
+    left: calc(50% + 100px);
+  }
+
+  &__left {
+    left: 42%;
+  }
+}
+
+.slider-item__row {
+  display: flex;
+  justify-content: space-between;
+
+  &:not(:first-child) {
+    margin-top: 37px;
+  }
+}
+
+.slider-num {
+  position: absolute;
+  left: calc(46% + 7px);
+}
+
+.slider-num__item {
+  min-width: 140px;
+  padding-top: 67px;
+
+  color: #c5c5c5;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 4.2px;
+
+  &::after {
+    content: '/ 05';
+    color: $black;
+  }
+}
