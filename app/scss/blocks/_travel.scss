@@ -1,0 +1,42 @@
+.travel {
+  padding: 65px 0;
+}
+
+.travel__info {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1027px;
+}
+
+.travel__post {
+  display: flex;
+  justify-content: space-between;
+
+
+
+  &-title {
+    margin: 59px 0 35px;
+
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 6px;
+  }
+
+  &-text {
+    margin-bottom: 70px;
+    max-width: 681px;
+
+    color: #848484;
+    font-size: 19px;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+  }
+
+  &-btn {
+    padding: 23px 35px;
+
+    letter-spacing: 3.2px;
+
+    background-color: #dddcdc;
+  }
+}
