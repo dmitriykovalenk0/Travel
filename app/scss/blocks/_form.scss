@@ -1,0 +1,46 @@
+.form {
+  padding: 155px 0;
+  background-color: #f4f4f4;
+}
+
+.form__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__posttitle {
+  margin-top: 24px;
+}
+
+.form__container {
+  align-self: center;
+
+  input {
+    padding: 27px 0 28px 32px;
+    margin-right: 59px;
+
+    border: 2px solid #7a7a7a;
+    outline: none;
+    color: #3a4047;
+    background-color: transparent;
+    font-size: 22px;
+    letter-spacing: 3.08px;
+  }
+
+  button {
+    padding: 27px 87px;
+    color: $white;
+    background-color: #3A4047;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    letter-spacing: 3.08px;
+  }
+}
+
+
+.form__posttitle {
+  color: $grey;
+  font-size: 18px;
+  letter-spacing: 2.52px;
+}
