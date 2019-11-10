@@ -1,0 +1,17 @@
+.next-tour {
+  padding: 65px 0;
+}
+
+.next-tour__content-box {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    box-shadow: 14px 15px 46px 1px rgba(0, 0, 0, 0.18);
+  }
+
+  figcaption {
+    max-width: 810px;
+    align-self: center;
+  }
+}

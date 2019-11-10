@@ -49,6 +49,28 @@ figure {
   margin: 0 auto;
 }
 
+.page__name {
+  color: #c4c4c4;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 3.08px;
+}
+
+.page__title {
+  padding-top: 32px;
+
+  color: $black;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 4.2px;
+}
+
+.page__text {
+  padding-top: 54px;
+  font-size: 22px;
+  letter-spacing: 3.08px;
+}
+
 .btn-info {
   padding: 20px 84px;
 
