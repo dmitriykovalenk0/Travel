@@ -1,0 +1,54 @@
+@media screen and (max-width:1675px) {
+
+  .travel__posts {
+    flex-direction: column;
+
+    figure {
+      align-self: center;
+
+      &:not(:first-child) {
+        margin-top: 65px;
+      }
+
+    }
+  }
+
+  .next-tour__content-box {
+    flex-direction: column;
+    align-content: center;
+
+    img {
+      align-self: center;
+    }
+
+    figcaption {
+      margin: 65px 0;
+      text-align: center;
+    }
+  }
+
+  .form__content {
+    flex-direction: column;
+    align-content: center;
+
+    .form__info {
+      margin-bottom: 65px;
+      text-align: center;
+    }
+  }
+
+  .about__content {
+    flex-direction: column;
+    align-content: center;
+
+    .about__info {
+      margin-bottom: 65px;
+      text-align: center;
+    }
+
+    img {
+      align-self: center;
+    }
+  }
+
+}
